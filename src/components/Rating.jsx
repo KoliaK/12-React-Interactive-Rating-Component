@@ -3,9 +3,6 @@ import Card from './Card';
 import starImg from '../assets/icon-star.svg';
 import './Rating.css';
 
-//"rating", "setRating" and "setShowThankYouPage" are intended to be used
-//to set ratings and be displayed in the thank you page as
-//"You selected {rating} out of 5". Not showing properly, though.
 const Rating = ({rating, setRating, setShowThankYouPage}) => {
   const [activeRatings, setActiveRatings] = useState({
     oneStar: false,
